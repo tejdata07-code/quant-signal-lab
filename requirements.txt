@@ -1,0 +1,18 @@
+# Core — data, maths, modelling
+pandas==2.2.3
+numpy==1.26.4
+scipy==1.13.1
+scikit-learn==1.5.2
+
+# UI — operations console
+streamlit==1.41.1
+plotly==5.24.1
+
+# Market data / HTTP
+requests==2.32.3
+yfinance==0.2.51
+
+# Optional — transcript ingest for the levels predictor
+deep-translator==1.11.4
+youtube-transcript-api==1.2.4
+yt-dlp==2025.10.14

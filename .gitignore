@@ -1,0 +1,42 @@
+# ---------------------------------------------------------------- credentials
+# Broker tokens are live bearer credentials. Never commit one.
+upstox_token.txt
+*token*.txt
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+credentials*.json
+
+# ------------------------------------------------------------------ market data
+# ~1.7 GB of vendor bars, chains and transcripts. Rebuildable from the fetchers,
+# and redistributing vendor data is not ours to do.
+data/
+project_N/data/
+project_T/out/
+project_T_put/out/
+out/
+*.csv
+*.pkl
+*.wav
+
+# ----------------------------------------------------------------------- runtime
+*.log
+*.flag
+*.pre_feegate_*
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# -------------------------------------------------------------------------- os
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# ------------------------------------------------------------------- internal
+# Internal research write-ups and raw autopsy reports — not part of the product.
+private/
